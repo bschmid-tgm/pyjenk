@@ -9,7 +9,7 @@ Gearbeitete Zeit: ca. 1/2 Stunden
 import unittest
 from Main import *
 
-class TestAllgemein(unittest.TestCase):
+class Unittests(unittest.TestCase):
 
     def setUp(self):
         self.csvfile = CSV("test.csv")
